@@ -1,4 +1,7 @@
 module.exports = {
+	/*	Success and Error Messages */
+
+	/*	Authentication Messages	*/
 	Failed: 'These credentials do not match our records.',
 	Throttle: 'Too many login attempts, please try again after 1 minute.',
 	Login_failed: 'These credentials do not match our records.',
@@ -28,4 +31,7 @@ module.exports = {
 	Pgrade_require: 'Please upgrade you application now.',
 	Old_password_match: 'Sorry, this password is already used. Please choose other password password.',
 	NODE_RUNNING: 'Node Application Running Successfully.',
+
+	/*	Users Messages	*/
+	ALL_USER_FETCH: 'All users fetch successfully.',
 };

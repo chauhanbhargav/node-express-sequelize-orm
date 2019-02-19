@@ -4,7 +4,7 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const logger = require('morgan');
-const AppConstant = require('./app/constant/AppConstant');
+const AppConstant = require('./app/constant/StatusCode');
 const Messages = require('./app/constant/Messages');
 const expressValidator = require('express-validator');
 
